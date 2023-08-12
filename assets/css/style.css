@@ -68,6 +68,10 @@ margin: 0;
     font-size: 0;
 }
 
+#nav {
+    margin-bottom: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -113,5 +117,9 @@ margin: 0;
     color: #fff;
 }
 
+/*---------------------------------Hover.css---------------------------------*/
 
-
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, .2);
+    height: 120px;
+}
