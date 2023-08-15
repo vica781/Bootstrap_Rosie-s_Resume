@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-/*---------------------------------Coloures----------------------------------*/
+/*--------------------------------------------Colors*/
 
 .bg-color-name-title {
     background-color: #676767;
@@ -13,12 +13,16 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6
+    background-color: #9b59b6;
 }
 
 .ui-menu-color-contact {
@@ -29,7 +33,7 @@
     background-color: #525252;
 }
 
-/*------------------------Special paddings/margins/text----------------------*/
+/* ----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -43,7 +47,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -60,17 +64,17 @@ h4 {
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
-    vertical-align: middle;
 }
 
+.history-heading,
 .section-heading {
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
-/*----------------------------------Heading----------------------------------*/
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
@@ -78,17 +82,6 @@ header {
 
 .heading {
     margin-left: 50px;
-    font-family: 'Exo', sans-serif;
-    font-weight: 700;
-    font-size: 3em;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    background-color: #676767;
-    border-bottom: 1px solid #fff;
 }
 
 .logo {
@@ -103,10 +96,19 @@ header {
 }
 
 .name {
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
     color: #fff;
 }
 
@@ -118,13 +120,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin-bottom: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -144,7 +146,7 @@ header {
     padding-top: 22px;
     display: block;
     color: #fafafa;
-    /* font-size: 26px; */
+    font-size: 26px;
 }
 
 .menuitem span {
@@ -158,23 +160,14 @@ header {
     letter-spacing: 2px;
 }
 
-.title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 90px;
-    color: #fff;
-}
-
-/*---------------------------------Hover.css---------------------------------*/
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/*-----------------------------------Footer----------------------------------*/
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -188,10 +181,10 @@ footer {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-    -o-transition: all .35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .cv-pdf i:hover {
@@ -212,21 +205,21 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-    -o-transition: all .35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
     background: #e84610;
 }
 
-#fotter-details {
-    padding-top: 20px;
+#footer-details {
+    padding: 20px;
 }
 
-/*-------------------------------Three Reasons-------------------------------*/
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
@@ -237,7 +230,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/*-------------------------------Personal Info-------------------------------*/
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -272,7 +265,7 @@ footer {
     width: 60%;
 }
 
-/*----------------------------------Skills-----------------------------------*/
+/* ----------------------------------------Skills */
 
 .progress {
     position: relative;
@@ -291,4 +284,52 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* ----------------------------------------Work History */
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
