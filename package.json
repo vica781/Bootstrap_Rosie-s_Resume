@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.4.1"
-  }
+  },
+  "name": "bootstrap_rosie-s_resume",
+  "description": "![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
 }
